@@ -4,7 +4,7 @@ require "rails-console-tweaks/version"
 
 Gem::Specification.new do |s|
   s.name        = "rails-console-tweaks"
-  s.version     = Rails::Console::Tweaks::VERSION
+  s.version     = Rails::ConsoleTweaks::VERSION
   s.authors     = ["Ryan Sonnek"]
   s.email       = ["ryan@socialcast.com"]
   s.homepage    = "http://github.com/wireframe/rails-console-tweaks"
