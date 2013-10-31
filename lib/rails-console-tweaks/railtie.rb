@@ -8,11 +8,12 @@ module Rails
         # log sql statements to stdout
         ActiveRecord::Base.logger = Logger.new(STDOUT)
 
+        # colorize output
+        ::Wirb.start if defined?(::Wirb)
+
         # pretty print output of models
         ::Hirb.enable if defined?(::Hirb)
 
-        # colorize output
-        ::Wirb.start if defined?(::Wirb)
       end
     end
   end
