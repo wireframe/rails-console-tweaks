@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/wireframe/rails-console-tweaks"
   s.summary     = %q{customize rails console with more useful defaults}
   s.description = %q{tweak the default console behavior with better defaults}
+  s.license     = "MIT"
 
   s.rubyforge_project = "rails-console-tweaks"
 
